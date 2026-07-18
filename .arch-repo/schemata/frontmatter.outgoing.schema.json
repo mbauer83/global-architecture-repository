@@ -19,6 +19,14 @@
       "type": "string",
       "pattern": "^\\d+\\.\\d+\\.\\d+$"
     },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "active",
+        "deprecated"
+      ]
+    },
     "last-updated": {
       "type": "string"
     }

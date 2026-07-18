@@ -1,0 +1,41 @@
+{
+  "abbreviation": "SPC",
+  "name": "Specification",
+  "frontmatter_schema": {
+    "type": "object",
+    "required": [
+      "title",
+      "status"
+    ],
+    "properties": {
+      "title": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "draft",
+          "accepted",
+          "rejected",
+          "superseded"
+        ]
+      },
+      "keywords": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "required_sections": [
+    "Scope",
+    "Summary",
+    "Specification"
+  ],
+  "section_templates": {
+    "Scope": "State what this specification covers and any explicit exclusions.\n",
+    "Summary": "Summarise the intent in 2-3 sentences.\n",
+    "Specification": "Provide the detailed specification.\n"
+  }
+}

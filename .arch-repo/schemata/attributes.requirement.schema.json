@@ -4,11 +4,17 @@
   "title": "Requirement Attribute Schema",
   "description": "Attribute schema for Properties table in Requirement entities.",
   "type": "object",
-  "required": ["Priority", "Category"],
+  "required": [],
   "properties": {
     "Priority": {
       "type": "string",
-      "enum": ["Must", "Should", "Could", "Won't", "Never"]
+      "enum": [
+        "Must",
+        "Should",
+        "Could",
+        "Won't",
+        "Never"
+      ]
     },
     "Category": {
       "type": "string"
