@@ -4,11 +4,16 @@
   "title": "Principle Attribute Schema",
   "description": "Attribute schema for Properties table in Principle entities.",
   "type": "object",
-  "required": ["Priority", "Rationale"],
+  "required": [],
   "properties": {
     "Priority": {
       "type": "string",
-      "enum": ["Must", "Should", "Could", "Won't"]
+      "enum": [
+        "Must",
+        "Should",
+        "Could",
+        "Won't"
+      ]
     },
     "Rationale": {
       "type": "string"

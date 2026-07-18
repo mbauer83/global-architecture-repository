@@ -4,11 +4,16 @@
   "title": "Goal Attribute Schema",
   "description": "Attribute schema for Properties table in Goal entities.",
   "type": "object",
-  "required": ["Priority", "Measurability"],
+  "required": [],
   "properties": {
     "Priority": {
       "type": "string",
-      "enum": ["Must", "Should", "Could", "Won't"]
+      "enum": [
+        "Must",
+        "Should",
+        "Could",
+        "Won't"
+      ]
     },
     "Measurability": {
       "type": "string"
