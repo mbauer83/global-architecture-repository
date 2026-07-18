@@ -1,0 +1,2 @@
+# Runtime sync state — per-clone, never shared
+.arch/
