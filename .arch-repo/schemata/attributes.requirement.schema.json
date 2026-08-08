@@ -18,9 +18,6 @@
     },
     "Category": {
       "type": "string"
-    },
-    "Children": {
-      "type": "string"
     }
   },
   "additionalProperties": true
